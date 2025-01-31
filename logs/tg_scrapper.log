@@ -1,0 +1,30 @@
+2025-01-31 22:11:53,654 - root - INFO - client connected successfully 
+2025-01-31 22:11:53,716 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-31 22:11:53,853 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-31 22:11:54,851 - root - INFO - Fetching messages from channel: @DoctorsET
+2025-01-31 22:11:55,082 - root - INFO - Channel details - Title: Doctors Ethiopia, Username: DoctorsET, ID: 1102021238
+2025-01-31 22:11:55,286 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:56,309 - root - INFO - Downloaded media to ../data/photos\DoctorsET-864.jpg
+2025-01-31 22:11:56,309 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:56,959 - root - INFO - Downloaded media to ../data/photos\DoctorsET-863.jpg
+2025-01-31 22:11:56,967 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:57,847 - root - INFO - Downloaded media to ../data/photos\DoctorsET-862.jpg
+2025-01-31 22:11:57,853 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:58,581 - root - INFO - Downloaded media to ../data/photos\DoctorsET-861.jpg
+2025-01-31 22:11:58,587 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:59,170 - root - INFO - Downloaded media to ../data/photos\DoctorsET-860.jpg
+2025-01-31 22:11:59,185 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:59,429 - root - INFO - Downloaded media to ../data/photos\DoctorsET-859.jpg
+2025-01-31 22:11:59,429 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:11:59,920 - root - INFO - Downloaded media to ../data/photos\DoctorsET-848.jpg
+2025-01-31 22:11:59,920 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:12:01,450 - root - INFO - Downloaded media to ../data/photos\DoctorsET-847.jpg
+2025-01-31 22:12:01,450 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:12:02,337 - root - INFO - Downloaded media to ../data/photos\DoctorsET-846.jpg
+2025-01-31 22:12:02,337 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 22:12:03,003 - root - INFO - Downloaded media to ../data/photos\DoctorsET-845.jpg
+2025-01-31 22:12:03,003 - root - INFO - Fetched 10 messages.
+2025-01-31 22:12:03,003 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-01-31 22:12:03,003 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-01-31 22:12:03,049 - root - INFO - Messages saved to ../data/telegram_messages.csv
+2025-01-31 22:12:03,049 - root - INFO - client disconnected successfully 
