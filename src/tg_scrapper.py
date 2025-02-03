@@ -17,8 +17,9 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
-#channel_usernames = ['@yetenaweg', '@lobelia4cosmetics','@CheMed123', '@DoctorsET']
-channel_usernames = ['@DoctorsET']
+channel_usernames = ['@yetenaweg',
+                     '@lobelia4cosmetics', '@CheMed123', '@DoctorsET']
+# channel_usernames = ['@DoctorsET']
 
 
 load_dotenv()
@@ -35,7 +36,7 @@ async def fetch_messages(client, channel_username):
 
     os.makedirs("photos", exist_ok=True)  # Ensure the photos folder exists
 
-    async for message in client.iter_messages(channel_username, limit=10):
+    async for message in client.iter_messages(channel_username, limit=50):
         media_path = None
         if message.media:
             media_path = await client.download_media(message, file=f"../data/photos/{channel_username[1:]}-{message.id}.jpg")
@@ -44,7 +45,7 @@ async def fetch_messages(client, channel_username):
         messages_data.append({
             "channel_title": channel.title,
             "channel_username": channel_username,
-            "channel_id": channel.id,
+            "message_id": message.id,
             "message_text": message.text,
             "date": message.date,
             "media_path": media_path

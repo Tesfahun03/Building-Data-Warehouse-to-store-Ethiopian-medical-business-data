@@ -22,10 +22,10 @@ def load_csv(file_path):
     """ Load CSV file into a Pandas DataFrame. """
     try:
         df = pd.read_csv(file_path)
-        logging.info(f"✅ CSV file '{file_path}' loaded successfully.")
+        logging.info(f" CSV file '{file_path}' loaded successfully.")
         return df
     except Exception as e:
-        logging.error(f"❌ Error loading CSV file: {e}")
+        logging.error(f" Error loading CSV file: {e}")
         raise
 
 
@@ -50,50 +50,49 @@ def clean_text(text):
 def clean_dataframe(df):
     """ Perform all cleaning and standardization steps while avoiding SettingWithCopyWarning. """
     try:
-        df = df.drop_duplicates(subset=["ID"]).copy()  # Ensure a new copy
-        logging.info("✅ Duplicates removed from dataset.")
 
-        # ✅ Convert Date to datetime format, replacing NaT with None
-        df.loc[:, 'Date'] = pd.to_datetime(df['Date'], errors='coerce')
-        df.loc[:, 'Date'] = df['Date'].where(df['Date'].notna(), None)
-        logging.info("✅ Date column formatted to datetime.")
+        #  Convert Date to datetime format, replacing NaT with None
+        df.loc[:, 'date'] = pd.to_datetime(df['date'], errors='coerce')
+        df.loc[:, 'date'] = df['date'].where(df['date'].notna(), None)
+        logging.info(" Date column formatted to datetime.")
 
-        # ✅ Convert 'ID' to integer for PostgreSQL BIGINT compatibility
-        df.loc[:, 'ID'] = pd.to_numeric(
-            df['ID'], errors="coerce").fillna(0).astype(int)
+        #  Convert 'ID' to integer for PostgreSQL BIGINT compatibility
+        df.loc[:, 'message_id'] = pd.to_numeric(
+            df['message_id'], errors="coerce").fillna(0).astype(int)
 
-        # ✅ Fill missing values
-        df.loc[:, 'Message'] = df['Message'].fillna("No Message")
-        df.loc[:, 'Media Path'] = df['Media Path'].fillna("No Media")
-        logging.info("✅ Missing values filled.")
+        #  Fill missing values
+        df.loc[:, 'message_text'] = df['message_text'].fillna("No Message")
+        df.loc[:, 'media_path'] = df['media_path'].fillna("No Media")
+        logging.info(" Missing values filled.")
 
-        # ✅ Standardize text columns
-        df.loc[:, 'Channel Title'] = df['Channel Title'].str.strip()
-        df.loc[:, 'Channel Username'] = df['Channel Username'].str.strip()
-        df.loc[:, 'Message'] = df['Message'].apply(clean_text)
-        df.loc[:, 'Media Path'] = df['Media Path'].str.strip()
-        logging.info("✅ Text columns standardized.")
+        #  Standardize text columns
+        df.loc[:, 'channel_title'] = df['channel_title'].str.strip()
+        df.loc[:, 'channel_username'] = df['channel_username'].str.strip()
+        df.loc[:, 'message_text'] = df['message_text'].apply(clean_text)
+        df.loc[:, 'media_path'] = df['media_path'].str.strip()
+        logging.info(" Text columns standardized.")
 
-        # ✅ Remove emojis from message text
-        df.loc[:, 'Message'] = df['Message'].apply(remove_emojis)
+        #  Remove emojis from message text
+        df.loc[:, 'message_text'] = df['message_text'].apply(remove_emojis)
 
-        # ✅ Remove YouTube links from message text
-        df.loc[:, 'Message'] = df['Message'].apply(remove_youtube_links)
+        #  Remove YouTube links from message text
+        df.loc[:, 'message_text'] = df['message_text'].apply(
+            remove_youtube_links)
 
-        # ✅ Rename columns to match PostgreSQL schema
+        #  Rename columns to match PostgreSQL schema
         df = df.rename(columns={
-            "Channel Title": "channel_title",
-            "Channel Username": "channel_username",
-            "ID": "message_id",
-            "Message": "message",
-            "Date": "message_date",
-            "Media Path": "media_path"
+            "channel_title": "channel_title",
+            "channel_username": "channel_username",
+            "message_id": "message_id",
+            "message_text": "message",
+            "date": "message_date",
+            "media_path": "media_path"
         })
 
-        logging.info("✅ Data cleaning completed successfully.")
+        logging.info(" Data cleaning completed successfully.")
         return df
     except Exception as e:
-        logging.error(f"❌ Data cleaning error: {e}")
+        logging.error(f" Data cleaning error: {e}")
         raise
 
 
@@ -101,8 +100,8 @@ def save_cleaned_data(df, output_path):
     """ Save cleaned data to a new CSV file. """
     try:
         df.to_csv(output_path, index=False)
-        logging.info(f"✅ Cleaned data saved successfully to '{output_path}'.")
-        print(f"✅ Cleaned data saved successfully to '{output_path}'.")
+        logging.info(f" Cleaned data saved successfully to '{output_path}'.")
+        print(f" Cleaned data saved successfully to '{output_path}'.")
     except Exception as e:
-        logging.error(f"❌ Error saving cleaned data: {e}")
+        logging.error(f" Error saving cleaned data: {e}")
         raise
