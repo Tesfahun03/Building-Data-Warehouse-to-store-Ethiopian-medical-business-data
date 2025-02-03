@@ -17,8 +17,8 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
-channel_usernames = ['@yetenaweg',
-                     '@lobelia4cosmetics', '@CheMed123', '@DoctorsET']
+channel_usernames = [
+    '@lobelia4cosmetics', '@CheMed123', '@DoctorsET']
 # channel_usernames = ['@DoctorsET']
 
 
@@ -72,7 +72,7 @@ async def main():
     output_file = '../data/telegram_messages.csv'
 
     if all_messages:  # Only save if there are messages
-        df = pd.DataFrame(all_messages, columns=["channel_title", "channel_username", "channel_id",
+        df = pd.DataFrame(all_messages, columns=["channel_title", "channel_username", "message_id",
                                                  "message_text", "date", "media_path"])
         df.to_csv(output_file, index=False)
         logging.info(f"Messages saved to {output_file}")
