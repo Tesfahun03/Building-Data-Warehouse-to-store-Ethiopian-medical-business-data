@@ -37,6 +37,7 @@ logging.basicConfig(
     ]
 )
 
+
 class YOLODetector:
     def __init__(self, model_path="yolov5s.pt"):
         """Initialize YOLO model."""
@@ -73,6 +74,7 @@ class YOLODetector:
 
         return all_detections
 
+
 class DatabaseManager:
     def __init__(self):
         """Initialize database connection."""
@@ -108,14 +110,16 @@ class DatabaseManager:
                     "confidence": det["confidence"],
                     "bbox": str(det["bbox"])
                 })
-        logging.info(f"{len(detections)} detection results inserted into the database.")
+        logging.info(
+            f"{len(detections)} detection results inserted into the database.")
+
 
 if __name__ == "__main__":
     image_dir = "../data/photos"
-    
+
     yolo = YOLODetector()
     db_manager = DatabaseManager()
-    
+
     db_manager.create_detection_table()
     detections = yolo.process_images(image_dir)
     db_manager.insert_detections(detections)
