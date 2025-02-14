@@ -1,30 +1,314 @@
-2025-01-31 22:11:53,654 - root - INFO - client connected successfully 
-2025-01-31 22:11:53,716 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
-2025-01-31 22:11:53,853 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
-2025-01-31 22:11:54,851 - root - INFO - Fetching messages from channel: @DoctorsET
-2025-01-31 22:11:55,082 - root - INFO - Channel details - Title: Doctors Ethiopia, Username: DoctorsET, ID: 1102021238
-2025-01-31 22:11:55,286 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:56,309 - root - INFO - Downloaded media to ../data/photos\DoctorsET-864.jpg
-2025-01-31 22:11:56,309 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:56,959 - root - INFO - Downloaded media to ../data/photos\DoctorsET-863.jpg
-2025-01-31 22:11:56,967 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:57,847 - root - INFO - Downloaded media to ../data/photos\DoctorsET-862.jpg
-2025-01-31 22:11:57,853 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:58,581 - root - INFO - Downloaded media to ../data/photos\DoctorsET-861.jpg
-2025-01-31 22:11:58,587 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:59,170 - root - INFO - Downloaded media to ../data/photos\DoctorsET-860.jpg
-2025-01-31 22:11:59,185 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:59,429 - root - INFO - Downloaded media to ../data/photos\DoctorsET-859.jpg
-2025-01-31 22:11:59,429 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:11:59,920 - root - INFO - Downloaded media to ../data/photos\DoctorsET-848.jpg
-2025-01-31 22:11:59,920 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:12:01,450 - root - INFO - Downloaded media to ../data/photos\DoctorsET-847.jpg
-2025-01-31 22:12:01,450 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:12:02,337 - root - INFO - Downloaded media to ../data/photos\DoctorsET-846.jpg
-2025-01-31 22:12:02,337 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
-2025-01-31 22:12:03,003 - root - INFO - Downloaded media to ../data/photos\DoctorsET-845.jpg
-2025-01-31 22:12:03,003 - root - INFO - Fetched 10 messages.
-2025-01-31 22:12:03,003 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
-2025-01-31 22:12:03,003 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
-2025-01-31 22:12:03,049 - root - INFO - Messages saved to ../data/telegram_messages.csv
-2025-01-31 22:12:03,049 - root - INFO - client disconnected successfully 
+2025-02-03 20:58:57,262 - root - INFO - client connected successfully 
+2025-02-03 20:58:57,291 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-03 20:58:57,415 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-03 20:58:58,359 - root - INFO - Fetching messages from channel: @lobelia4cosmetics
+2025-02-03 20:58:58,359 - root - INFO - Fetching messages from channel: @CheMed123
+2025-02-03 20:58:58,360 - root - INFO - Fetching messages from channel: @DoctorsET
+2025-02-03 20:58:58,508 - root - INFO - Channel details - Title: Lobelia pharmacy and cosmetics, Username: lobelia4cosmetics, ID: 1666492664
+2025-02-03 20:58:58,509 - root - INFO - Channel details - Title: CheMed, Username: CheMed123, ID: 1627056354
+2025-02-03 20:58:58,509 - root - INFO - Channel details - Title: Doctors Ethiopia, Username: DoctorsET, ID: 1102021238
+2025-02-03 20:58:58,754 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:58,867 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:58,953 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:59,209 - root - INFO - Downloaded media to ../data/photos\CheMed123-97.jpg
+2025-02-03 20:58:59,224 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:59,334 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15271.jpg
+2025-02-03 20:58:59,334 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:59,694 - root - INFO - Downloaded media to ../data/photos\DoctorsET-864.jpg
+2025-02-03 20:58:59,698 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:59,786 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15270.jpg
+2025-02-03 20:58:59,786 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:58:59,858 - root - INFO - Downloaded media to ../data/photos\CheMed123-96.jpg
+2025-02-03 20:58:59,858 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:00,159 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15269.jpg
+2025-02-03 20:59:00,159 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:00,231 - root - INFO - Downloaded media to ../data/photos\CheMed123-95.jpg
+2025-02-03 20:59:00,232 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:00,268 - root - INFO - Downloaded media to ../data/photos\DoctorsET-863.jpg
+2025-02-03 20:59:00,269 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:00,625 - root - INFO - Downloaded media to ../data/photos\CheMed123-94.jpg
+2025-02-03 20:59:00,626 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:01,827 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15268.jpg
+2025-02-03 20:59:01,828 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:01,832 - root - INFO - Downloaded media to ../data/photos\DoctorsET-862.jpg
+2025-02-03 20:59:01,833 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:02,367 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15267.jpg
+2025-02-03 20:59:02,367 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:02,647 - root - INFO - Downloaded media to ../data/photos\CheMed123-93.jpg
+2025-02-03 20:59:02,649 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:02,812 - root - INFO - Downloaded media to ../data/photos\DoctorsET-861.jpg
+2025-02-03 20:59:02,812 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:02,963 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15266.jpg
+2025-02-03 20:59:02,963 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:03,379 - root - INFO - Downloaded media to ../data/photos\DoctorsET-860.jpg
+2025-02-03 20:59:03,379 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:03,411 - root - INFO - Downloaded media to ../data/photos\CheMed123-92.jpg
+2025-02-03 20:59:03,411 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:03,411 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15265.jpg
+2025-02-03 20:59:03,411 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:03,589 - root - INFO - Downloaded media to ../data/photos\DoctorsET-859.jpg
+2025-02-03 20:59:03,589 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:03,680 - root - INFO - Downloaded media to ../data/photos\CheMed123-91.jpg
+2025-02-03 20:59:03,680 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:04,271 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15264.jpg
+2025-02-03 20:59:04,271 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:04,445 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15263.jpg
+2025-02-03 20:59:04,447 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:04,540 - root - INFO - Downloaded media to ../data/photos\DoctorsET-848.jpg
+2025-02-03 20:59:04,540 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:04,924 - root - INFO - Downloaded media to ../data/photos\CheMed123-90.jpg
+2025-02-03 20:59:04,924 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:05,530 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15262.jpg
+2025-02-03 20:59:05,530 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:05,530 - root - INFO - Downloaded media to ../data/photos\DoctorsET-847.jpg
+2025-02-03 20:59:05,530 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:05,795 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15261.jpg
+2025-02-03 20:59:05,796 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:06,447 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15260.jpg
+2025-02-03 20:59:06,447 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:06,588 - root - INFO - Downloaded media to ../data/photos\DoctorsET-846.jpg
+2025-02-03 20:59:06,588 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:07,673 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15259.jpg
+2025-02-03 20:59:07,673 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:07,704 - root - INFO - Downloaded media to ../data/photos\CheMed123-89.jpg
+2025-02-03 20:59:07,704 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:07,846 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15258.jpg
+2025-02-03 20:59:07,846 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:07,893 - root - INFO - Downloaded media to ../data/photos\DoctorsET-845.jpg
+2025-02-03 20:59:07,893 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:08,574 - root - INFO - Downloaded media to ../data/photos\CheMed123-88.jpg
+2025-02-03 20:59:08,574 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:09,213 - root - INFO - Downloaded media to ../data/photos\DoctorsET-844.jpg
+2025-02-03 20:59:09,213 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:09,323 - root - INFO - Downloaded media to ../data/photos\CheMed123-87.jpg
+2025-02-03 20:59:09,323 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:09,544 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15257.jpg
+2025-02-03 20:59:09,544 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:09,941 - root - INFO - Downloaded media to ../data/photos\DoctorsET-843.jpg
+2025-02-03 20:59:09,942 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:09,944 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15256.jpg
+2025-02-03 20:59:09,944 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:10,200 - root - INFO - Downloaded media to ../data/photos\CheMed123-86.jpg
+2025-02-03 20:59:10,200 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:10,262 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15255.jpg
+2025-02-03 20:59:10,262 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:10,325 - root - INFO - Downloaded media to ../data/photos\DoctorsET-842.jpg
+2025-02-03 20:59:10,325 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:10,451 - root - INFO - Downloaded media to ../data/photos\CheMed123-85.jpg
+2025-02-03 20:59:10,466 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:11,260 - root - INFO - Downloaded media to ../data/photos\DoctorsET-841.jpg
+2025-02-03 20:59:11,276 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:11,338 - root - INFO - Downloaded media to ../data/photos\CheMed123-82.jpg
+2025-02-03 20:59:11,338 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:11,338 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15254.jpg
+2025-02-03 20:59:11,354 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:11,808 - root - INFO - Downloaded media to ../data/photos\DoctorsET-840.jpg
+2025-02-03 20:59:11,808 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:12,729 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15253.jpg
+2025-02-03 20:59:12,744 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:13,030 - root - INFO - Downloaded media to ../data/photos\CheMed123-81.jpg
+2025-02-03 20:59:13,030 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:13,093 - root - INFO - Downloaded media to ../data/photos\DoctorsET-839.jpg
+2025-02-03 20:59:13,093 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:13,453 - root - INFO - Downloaded media to ../data/photos\CheMed123-80.jpg
+2025-02-03 20:59:13,453 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:14,074 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15252.jpg
+2025-02-03 20:59:14,075 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:14,216 - root - INFO - Downloaded media to ../data/photos\DoctorsET-836.jpg
+2025-02-03 20:59:14,218 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:14,352 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15251.jpg
+2025-02-03 20:59:14,356 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:14,408 - root - INFO - Downloaded media to ../data/photos\CheMed123-79.jpg
+2025-02-03 20:59:14,408 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:14,608 - root - INFO - Downloaded media to ../data/photos\DoctorsET-835.jpg
+2025-02-03 20:59:14,608 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:14,674 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15250.jpg
+2025-02-03 20:59:14,674 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:15,223 - root - INFO - Downloaded media to ../data/photos\DoctorsET-834.jpg
+2025-02-03 20:59:15,239 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:15,419 - root - INFO - Downloaded media to ../data/photos\CheMed123-78.jpg
+2025-02-03 20:59:15,435 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:15,435 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15249.jpg
+2025-02-03 20:59:15,435 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:15,561 - root - INFO - Downloaded media to ../data/photos\DoctorsET-833.jpg
+2025-02-03 20:59:15,561 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:16,073 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15248.jpg
+2025-02-03 20:59:16,073 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:16,566 - root - INFO - Downloaded media to ../data/photos\CheMed123-77.jpg
+2025-02-03 20:59:16,571 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:16,628 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15247.jpg
+2025-02-03 20:59:16,628 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:16,628 - root - INFO - Downloaded media to ../data/photos\DoctorsET-832.jpg
+2025-02-03 20:59:16,628 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:16,942 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15246.jpg
+2025-02-03 20:59:16,942 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:17,304 - root - INFO - Downloaded media to ../data/photos\DoctorsET-831.jpg
+2025-02-03 20:59:17,305 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:17,306 - root - INFO - Downloaded media to ../data/photos\CheMed123-76.jpg
+2025-02-03 20:59:17,308 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:17,342 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15245.jpg
+2025-02-03 20:59:17,342 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:17,842 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15244.jpg
+2025-02-03 20:59:17,842 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:18,140 - root - INFO - Downloaded media to ../data/photos\DoctorsET-830.jpg
+2025-02-03 20:59:18,140 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:18,155 - root - INFO - Downloaded media to ../data/photos\CheMed123-75.jpg
+2025-02-03 20:59:18,157 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:18,157 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15243.jpg
+2025-02-03 20:59:18,157 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:18,811 - root - INFO - Downloaded media to ../data/photos\DoctorsET-829.jpg
+2025-02-03 20:59:18,811 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:19,160 - root - INFO - Downloaded media to ../data/photos\CheMed123-74.jpg
+2025-02-03 20:59:19,160 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:19,195 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15242.jpg
+2025-02-03 20:59:19,207 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:19,640 - root - INFO - Downloaded media to ../data/photos\DoctorsET-828.jpg
+2025-02-03 20:59:19,640 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:19,996 - root - INFO - Downloaded media to ../data/photos\CheMed123-73.jpg
+2025-02-03 20:59:19,996 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:19,996 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15241.jpg
+2025-02-03 20:59:19,996 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:20,120 - root - INFO - Downloaded media to ../data/photos\DoctorsET-827.jpg
+2025-02-03 20:59:20,121 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:20,906 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15240.jpg
+2025-02-03 20:59:20,906 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:21,016 - root - INFO - Downloaded media to ../data/photos\DoctorsET-826.jpg
+2025-02-03 20:59:21,031 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:21,031 - root - INFO - Downloaded media to ../data/photos\CheMed123-71.jpg
+2025-02-03 20:59:21,031 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:22,052 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15239.jpg
+2025-02-03 20:59:22,053 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:22,054 - root - INFO - Downloaded media to ../data/photos\DoctorsET-825.jpg
+2025-02-03 20:59:22,055 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:22,612 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15238.jpg
+2025-02-03 20:59:22,613 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:22,946 - root - INFO - Downloaded media to ../data/photos\DoctorsET-824.jpg
+2025-02-03 20:59:22,953 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:22,954 - root - INFO - Downloaded media to ../data/photos\CheMed123-70.jpg
+2025-02-03 20:59:22,955 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:23,009 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15237.jpg
+2025-02-03 20:59:23,009 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:23,640 - root - INFO - Downloaded media to ../data/photos\DoctorsET-823.jpg
+2025-02-03 20:59:23,640 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:24,450 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15236.jpg
+2025-02-03 20:59:24,450 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:24,465 - root - INFO - Downloaded media to ../data/photos\DoctorsET-822.jpg
+2025-02-03 20:59:24,465 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:24,654 - root - INFO - Downloaded media to ../data/photos\CheMed123-67.jpg
+2025-02-03 20:59:24,654 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:24,889 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15235.jpg
+2025-02-03 20:59:24,892 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:26,240 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15234.jpg
+2025-02-03 20:59:26,244 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:26,661 - root - INFO - Downloaded media to ../data/photos\DoctorsET-821.jpg
+2025-02-03 20:59:26,661 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:26,678 - root - INFO - Downloaded media to ../data/photos\CheMed123-64.jpg
+2025-02-03 20:59:26,693 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:26,723 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15233.jpg
+2025-02-03 20:59:26,723 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:27,127 - root - INFO - Downloaded media to ../data/photos\DoctorsET-820.jpg
+2025-02-03 20:59:27,143 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:27,926 - root - INFO - Downloaded media to ../data/photos\DoctorsET-819.jpg
+2025-02-03 20:59:27,936 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:28,314 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15232.jpg
+2025-02-03 20:59:28,314 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:28,509 - root - INFO - Downloaded media to ../data/photos\DoctorsET-818.jpg
+2025-02-03 20:59:28,509 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:29,450 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15231.jpg
+2025-02-03 20:59:29,453 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:30,614 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15230.jpg
+2025-02-03 20:59:30,621 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:31,330 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15229.jpg
+2025-02-03 20:59:31,332 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:31,639 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15228.jpg
+2025-02-03 20:59:31,644 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:32,149 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15227.jpg
+2025-02-03 20:59:32,153 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:32,507 - root - INFO - Downloaded media to ../data/photos\CheMed123-62.jpg
+2025-02-03 20:59:32,514 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:32,545 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15226.jpg
+2025-02-03 20:59:32,548 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:32,942 - root - INFO - Downloaded media to ../data/photos\CheMed123-60.jpg
+2025-02-03 20:59:32,943 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:33,686 - root - INFO - Downloaded media to ../data/photos\CheMed123-59.jpg
+2025-02-03 20:59:33,688 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:33,690 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15225.jpg
+2025-02-03 20:59:33,692 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:33,962 - root - INFO - Downloaded media to ../data/photos\CheMed123-58.jpg
+2025-02-03 20:59:33,963 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:34,096 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15224.jpg
+2025-02-03 20:59:34,097 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:34,455 - root - INFO - Downloaded media to ../data/photos\CheMed123-57.jpg
+2025-02-03 20:59:34,461 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:34,650 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15223.jpg
+2025-02-03 20:59:34,657 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:35,315 - root - INFO - Downloaded media to ../data/photos\lobelia4cosmetics-15222.jpg
+2025-02-03 20:59:35,316 - root - INFO - Fetched 50 messages.
+2025-02-03 20:59:35,478 - root - INFO - Downloaded media to ../data/photos\CheMed123-56.jpg
+2025-02-03 20:59:35,479 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:36,246 - root - INFO - Downloaded media to ../data/photos\CheMed123-55.jpg
+2025-02-03 20:59:36,248 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:37,013 - root - INFO - Downloaded media to ../data/photos\CheMed123-53.jpg
+2025-02-03 20:59:37,021 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:37,359 - root - INFO - Downloaded media to ../data/photos\CheMed123-52.jpg
+2025-02-03 20:59:37,359 - root - INFO - Downloaded media to None
+2025-02-03 20:59:37,360 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:37,934 - root - INFO - Downloaded media to ../data/photos\CheMed123-50.jpg
+2025-02-03 20:59:37,935 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:38,188 - root - INFO - Downloaded media to ../data/photos\CheMed123-49.jpg
+2025-02-03 20:59:38,191 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:39,103 - root - INFO - Downloaded media to ../data/photos\CheMed123-48.jpg
+2025-02-03 20:59:39,103 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:39,370 - root - INFO - Downloaded media to ../data/photos\CheMed123-46.jpg
+2025-02-03 20:59:39,386 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:39,697 - root - INFO - Downloaded media to ../data/photos\CheMed123-45.jpg
+2025-02-03 20:59:39,697 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:40,292 - root - INFO - Downloaded media to ../data/photos\CheMed123-44.jpg
+2025-02-03 20:59:40,293 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:40,616 - root - INFO - Downloaded media to ../data/photos\CheMed123-43.jpg
+2025-02-03 20:59:40,616 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:41,911 - root - INFO - Downloaded media to ../data/photos\CheMed123-41.jpg
+2025-02-03 20:59:41,914 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:43,083 - root - INFO - Downloaded media to ../data/photos\CheMed123-40.jpg
+2025-02-03 20:59:43,085 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:43,938 - root - INFO - Downloaded media to ../data/photos\CheMed123-39.jpg
+2025-02-03 20:59:43,939 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:44,230 - root - INFO - Downloaded media to ../data/photos\CheMed123-38.jpg
+2025-02-03 20:59:44,232 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:44,612 - root - INFO - Downloaded media to ../data/photos\CheMed123-34.jpg
+2025-02-03 20:59:44,628 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 20:59:45,292 - root - INFO - Downloaded media to ../data/photos\CheMed123-33.jpg
+2025-02-03 20:59:45,293 - root - INFO - Fetched 50 messages.
+2025-02-03 21:00:07,459 - root - INFO - Downloaded media to ../data/photos\DoctorsET-817.jpg
+2025-02-03 21:00:07,463 - root - INFO - Downloaded media to None
+2025-02-03 21:00:07,463 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:07,679 - root - INFO - Downloaded media to ../data/photos\DoctorsET-814.jpg
+2025-02-03 21:00:07,683 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:07,903 - root - INFO - Downloaded media to ../data/photos\DoctorsET-813.jpg
+2025-02-03 21:00:07,903 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:08,124 - root - INFO - Downloaded media to ../data/photos\DoctorsET-812.jpg
+2025-02-03 21:00:08,125 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:08,545 - root - INFO - Downloaded media to ../data/photos\DoctorsET-811.jpg
+2025-02-03 21:00:08,547 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:08,826 - root - INFO - Downloaded media to ../data/photos\DoctorsET-810.jpg
+2025-02-03 21:00:08,827 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:09,110 - root - INFO - Downloaded media to ../data/photos\DoctorsET-809.jpg
+2025-02-03 21:00:09,112 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:09,558 - root - INFO - Downloaded media to ../data/photos\DoctorsET-808.jpg
+2025-02-03 21:00:09,561 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:10,260 - root - INFO - Downloaded media to ../data/photos\DoctorsET-807.jpg
+2025-02-03 21:00:10,264 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:10,861 - root - INFO - Downloaded media to ../data/photos\DoctorsET-805.jpg
+2025-02-03 21:00:10,863 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:11,135 - root - INFO - Downloaded media to ../data/photos\DoctorsET-804.jpg
+2025-02-03 21:00:11,135 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:11,414 - root - INFO - Downloaded media to ../data/photos\DoctorsET-802.jpg
+2025-02-03 21:00:11,419 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:11,678 - root - INFO - Downloaded media to ../data/photos\DoctorsET-801.jpg
+2025-02-03 21:00:11,679 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-02-03 21:00:11,942 - root - INFO - Downloaded media to ../data/photos\DoctorsET-800.jpg
+2025-02-03 21:00:11,942 - root - INFO - Fetched 50 messages.
+2025-02-03 21:00:11,943 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-03 21:00:11,943 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-03 21:00:11,956 - root - INFO - Messages saved to ../data/telegram_messages.csv
+2025-02-03 21:00:11,956 - root - INFO - client disconnected successfully 
